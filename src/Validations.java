@@ -21,7 +21,6 @@ public class Validations {
 			if (input.matches("[A-Z][a-zA-Z]{0,30}")) {
 				isValid = true;
 				System.out.println("Valid entry");
-
 			} else {
 				System.out.println("Please enter a valid capitalized name");
 			}
@@ -56,7 +55,6 @@ public class Validations {
 				System.out.println("Valid entry");
 			} else {
 				System.out.println("Please enter a valid phone number");
-
 			}
 		} while (!isValid);
 		return isValid;
